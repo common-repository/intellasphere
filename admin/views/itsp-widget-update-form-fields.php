@@ -1,0 +1,76 @@
+<?php
+
+/**
+ * Widget Fields Update
+ */
+$instance = array();
+$instance['title'] = (isset($new_instance['title']) && !empty($new_instance['title']) ) ? strip_tags($new_instance['title']) : '';
+$instance['embedcode'] = isset($new_instance['embedcode']) ? $new_instance['embedcode'] : "";
+$instance['pricolor'] = (isset($new_instance['pricolor']) && !empty($new_instance['pricolor']) ) ? strip_tags($new_instance['pricolor']) : '';
+$instance['seccolor'] = (isset($new_instance['seccolor']) && !empty($new_instance['seccolor']) ) ? strip_tags($new_instance['seccolor']) : '';
+$instance['pribgcolor'] = (isset($new_instance['pribgcolor']) && !empty($new_instance['pribgcolor']) ) ? strip_tags($new_instance['pribgcolor']) : '';
+$instance['secbgcolor'] = (isset($new_instance['secbgcolor']) && !empty($new_instance['secbgcolor']) ) ? strip_tags($new_instance['secbgcolor']) : '';
+$instance['pritextcolor'] = (isset($new_instance['pritextcolor']) && !empty($new_instance['pritextcolor']) ) ? strip_tags($new_instance['pritextcolor']) : '';
+$instance['sectextcolor'] = (isset($new_instance['sectextcolor']) && !empty($new_instance['sectextcolor']) ) ? strip_tags($new_instance['sectextcolor']) : '';
+$instance['warningColor'] = (isset($new_instance['warningColor']) && !empty($new_instance['warningColor']) ) ? strip_tags($new_instance['warningColor']) : '';
+$instance['bgcolor'] = (isset($new_instance['bgcolor']) && !empty($new_instance['bgcolor']) ) ? strip_tags($new_instance['bgcolor']) : '';
+$instance['txtcolor'] = (isset($new_instance['txtcolor']) && !empty($new_instance['txtcolor']) ) ? strip_tags($new_instance['txtcolor']) : '';
+$instance['fntfamily'] = (isset($new_instance['fntfamily']) && !empty($new_instance['fntfamily']) ) ? strip_tags($new_instance['fntfamily']) : '';
+$instance['fntweight'] = (isset($new_instance['fntweight']) && !empty($new_instance['fntweight']) ) ? strip_tags($new_instance['fntweight']) : '';
+$instance['linheight'] = (isset($new_instance['linheight']) && !empty($new_instance['linheight']) ) ? strip_tags($new_instance['linheight']) : '';
+$instance['ptag'] = (isset($new_instance['ptag']) && !empty($new_instance['ptag']) ) ? strip_tags($new_instance['ptag']) : '';
+$instance['btncorradius'] = (isset($new_instance['btncorradius']) && !empty($new_instance['btncorradius']) ) ? strip_tags($new_instance['btncorradius']) : '';
+$instance['h1'] = (isset($new_instance['h1']) && !empty($new_instance['h1']) ) ? strip_tags($new_instance['h1']) : '';
+$instance['h2'] = (isset($new_instance['h2']) && !empty($new_instance['h2']) ) ? strip_tags($new_instance['h2']) : '';
+$instance['h3'] = (isset($new_instance['h3']) && !empty($new_instance['h3']) ) ? strip_tags($new_instance['h3']) : '';
+$instance['h4'] = (isset($new_instance['h4']) && !empty($new_instance['h4']) ) ? strip_tags($new_instance['h4']) : '';
+$instance['h5'] = (isset($new_instance['h5']) && !empty($new_instance['h5'])) ? strip_tags($new_instance['h5']) : '';
+$instance['h6'] = (isset($new_instance['h6']) && !empty($new_instance['h6'])) ? strip_tags($new_instance['h6']) : '';
+$instance['btnsize'] = (isset($new_instance['btnsize']) && !empty($new_instance['btnsize'])) ? strip_tags($new_instance['btnsize']) : '';
+$instance['btnstyle'] = (isset($new_instance['btnstyle']) && !empty($new_instance['btnstyle'])) ? strip_tags($new_instance['btnstyle']) : '';
+$instance['txtfdstyle'] = (isset($new_instance['txtfdstyle']) && !empty($new_instance['txtfdstyle'])) ? strip_tags($new_instance['txtfdstyle']) : '';
+$instance['trxtfdradius'] = (isset($new_instance['trxtfdradius']) && !empty($new_instance['trxtfdradius'])) ? strip_tags($new_instance['trxtfdradius']) : '';
+$instance['btinputradius'] = (isset($new_instance['btinputradius']) && !empty($new_instance['btinputradius'])) ? strip_tags($new_instance['btinputradius']) : '';
+$instance['borwidth'] = (isset($new_instance['borwidth']) && !empty($new_instance['borwidth'])) ? strip_tags($new_instance['borwidth']) : '';
+$instance['datamaxwidth'] = (isset($new_instance['datamaxwidth']) && !empty($new_instance['datamaxwidth']) ) ? strip_tags($new_instance['datamaxwidth']) : '';
+$instance['datamaxheight'] = (isset($new_instance['datamaxheight']) && !empty($new_instance['datamaxheight']) ) ? strip_tags($new_instance['datamaxheight']) : '';
+$instance['btbgcolor'] = (isset($new_instance['btbgcolor']) && !empty($new_instance['btbgcolor']) ) ? strip_tags($new_instance['btbgcolor']) : '';
+$instance['bttxtcolor'] = (isset($new_instance['bttxtcolor']) && !empty($new_instance['bttxtcolor']) ) ? strip_tags($new_instance['bttxtcolor']) : '';
+$instance['datawidth'] = (isset($new_instance['datawidth']) && !empty($new_instance['datawidth']) ) ? strip_tags($new_instance['datawidth']) : '';
+$instance['dataheight'] = (isset($new_instance['dataheight']) && !empty($new_instance['dataheight']) ) ? strip_tags($new_instance['dataheight']) : '';
+$instance['datastyle'] = (isset($new_instance['datastyle']) && !empty($new_instance['datastyle']) ) ? strip_tags($new_instance['datastyle']) : '';
+$instance['slidanmt'] = (isset($new_instance['slidanmt']) && !empty($new_instance['slidanmt']) ) ? strip_tags($new_instance['slidanmt']) : '';
+$instance['mdalignemnt'] = (isset($new_instance['mdalignemnt']) && !empty($new_instance['mdalignemnt']) ) ? strip_tags($new_instance['mdalignemnt']) : '';
+$instance['datatimer'] = (isset($new_instance['datatimer']) && !empty($new_instance['datatimer']) ) ? strip_tags($new_instance['datatimer']) : '';
+$instance['datadesign'] = (isset($new_instance['datadesign']) && !empty($new_instance['datadesign']) ) ? strip_tags($new_instance['datadesign']) : '';
+$instance['datalayout'] = (isset($new_instance['datalayout']) && !empty($new_instance['datalayout']) ) ? strip_tags($new_instance['datalayout']) : '';
+$instance['borcolor'] = (isset($new_instance['borcolor']) && !empty($new_instance['borcolor']) ) ? strip_tags($new_instance['borcolor']) : '';
+$instance['secbttxtcolor'] = (isset($new_instance['secbttxtcolor']) && !empty($new_instance['secbttxtcolor']) ) ? strip_tags($new_instance['secbttxtcolor']) : '';
+$instance['secbtbgcolor'] = (isset($new_instance['secbtbgcolor']) && !empty($new_instance['secbtbgcolor']) ) ? strip_tags($new_instance['secbtbgcolor']) : '';
+$instance['tranbg'] = (isset($new_instance['tranbg']) && !empty($new_instance['tranbg']) ) ? strip_tags($new_instance['tranbg']) : false;
+$instance['shhidtitle'] = (isset($new_instance['shhidtitle']) && !empty($new_instance['shhidtitle']) ) ? strip_tags($new_instance['shhidtitle']) : false;
+$instance['showhideb'] = (isset($new_instance['showhideb']) && !empty($new_instance['showhideb']) ) ? strip_tags($new_instance['showhideb']) : false;
+$instance['showhidec'] = (isset($new_instance['showhidec']) && !empty($new_instance['showhidec']) ) ? strip_tags($new_instance['showhidec']) : false;
+$instance['showhidecompany'] = (isset($new_instance['showhidecompany']) && !empty($new_instance['showhidecompany']) ) ? strip_tags($new_instance['showhidecompany']) : false;
+$instance['selectid'] = (isset($new_instance['selectid']) && !empty($new_instance['selectid']) ) ? strip_tags($new_instance['selectid']) : false;
+$instance['widgettype'] = (isset($new_instance['widgettype']) && !empty($new_instance['widgettype']) ) ? strip_tags($new_instance['widgettype']) : 'null';
+$instance['engagement_type'] = (isset($new_instance['engagement_type']) && !empty($new_instance['engagement_type']) ) ? strip_tags($new_instance['engagement_type']) : 'null';
+$instance['customize'] = (isset($new_instance['customize']) && !empty($new_instance['customize']) ) ? strip_tags($new_instance['customize']) : 'null';
+$instance['brandkiton'] = (isset($new_instance['brandkiton']) && !empty($new_instance['brandkiton']) ) ? strip_tags($new_instance['brandkiton']) : 'null';
+$instance['bannerdatafont'] = (isset($new_instance['bannerdatafont']) && !empty($new_instance['bannerdatafont']) ) ? strip_tags($new_instance['bannerdatafont']) : 'null';
+$instance['banneralignemnt'] = (isset($new_instance['banneralignemnt']) && !empty($new_instance['banneralignemnt']) ) ? strip_tags($new_instance['banneralignemnt']) : 'null';
+$instance['bannerimmediate'] = (isset($new_instance['bannerimmediate']) && !empty($new_instance['bannerimmediate']) ) ? strip_tags($new_instance['bannerimmediate']) : 'null';
+$instance['widgettypereview'] = (isset($new_instance['widgettypereview']) && !empty($new_instance['widgettypereview']) ) ? strip_tags($new_instance['widgettypereview']) : 'null';
+$instance['widgettypesurvey'] = (isset($new_instance['widgettypesurvey']) && !empty($new_instance['widgettypesurvey']) ) ? strip_tags($new_instance['widgettypesurvey']) : 'null';
+$instance['reviewlayout'] = (isset($new_instance['reviewlayout']) && !empty($new_instance['reviewlayout']) ) ? strip_tags($new_instance['reviewlayout']) : 'null';
+$instance['buttontype'] = (isset($new_instance['buttontype']) && !empty($new_instance['buttontype']) ) ? strip_tags($new_instance['buttontype']) : 'square';
+$instance['txtfdstyle'] = (isset($new_instance['txtfdstyle']) && !empty($new_instance['txtfdstyle']) ) ? strip_tags($new_instance['txtfdstyle']) : 'filled';
+$instance['trxtfdshape'] = (isset($new_instance['trxtfdshape']) && !empty($new_instance['trxtfdshape']) ) ? strip_tags($new_instance['trxtfdshape']) : 'square';
+$instance['mtlayout'] = (isset($new_instance['mtlayout']) && !empty($new_instance['mtlayout']) ) ? strip_tags($new_instance['mtlayout']) : 'grid';
+$instance['typofeng'] = (isset($new_instance['typofeng']) && !empty($new_instance['typofeng']) ) ? strip_tags($new_instance['typofeng']) : 'individual';
+$instance['lytlimit'] = (isset($new_instance['lytlimit']) && !empty($new_instance['lytlimit']) ) ? strip_tags($new_instance['lytlimit']) : '';
+$instance['nbrslider'] = (isset($new_instance['nbrslider']) && !empty($new_instance['nbrslider']) ) ? strip_tags($new_instance['nbrslider']) : '1';
+$instance['nbrofcolumn'] = (isset($new_instance['nbrofcolumn']) && !empty($new_instance['nbrofcolumn']) ) ? strip_tags($new_instance['nbrofcolumn']) : '24';
+$instance['rating'] = (isset($new_instance['rating']) && !empty($new_instance['rating']) ) ? strip_tags($new_instance['rating']) : '0';
+$instance['moderate'] = (isset($new_instance['moderate']) && !empty($new_instance['moderate']) ) ? strip_tags($new_instance['moderate']) : false;
+
